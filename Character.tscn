@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://rch2e0hxnvy3"]
 
 [ext_resource type="Script" uid="uid://bvp6h8bvcell5" path="res://character.gd" id="1_7ig0a"]
-[ext_resource type="Texture2D" uid="uid://cp07bu0xejt0t" path="res://ASSETS/AlienSlimeSpriteSheet.png" id="1_oolk3"]
+[ext_resource type="Texture2D" uid="uid://cp07bu0xejt0t" path="res://assets/AlienSlimeSpriteSheet.png" id="1_oolk3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7ig0a"]
 atlas = ExtResource("1_oolk3")
@@ -72,5 +72,5 @@ sprite_frames = SubResource("SpriteFrames_j630g")
 autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1109634097]
-position = Vector2(179, 88.5)
+position = Vector2(178, 94)
 shape = SubResource("RectangleShape2D_07igm")
