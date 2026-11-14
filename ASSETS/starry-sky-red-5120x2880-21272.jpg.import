@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cp07bu0xejt0t"
-path="res://.godot/imported/AlienSlimeSpriteSheet.png-05ee743197bd79b09871dc9a60b5e2ca.ctex"
+uid="uid://cjau4phq5b260"
+path="res://.godot/imported/starry-sky-red-5120x2880-21272.jpg-d66fd91f79b447559d03fe84088e0155.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSETS/AlienSlimeSpriteSheet.png"
-dest_files=["res://.godot/imported/AlienSlimeSpriteSheet.png-05ee743197bd79b09871dc9a60b5e2ca.ctex"]
+source_file="res://ASSETS/starry-sky-red-5120x2880-21272.jpg"
+dest_files=["res://.godot/imported/starry-sky-red-5120x2880-21272.jpg-d66fd91f79b447559d03fe84088e0155.ctex"]
 
 [params]
 
