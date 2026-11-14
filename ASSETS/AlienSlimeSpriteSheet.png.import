@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp07bu0xejt0t"
-path="res://.godot/imported/AlienSlimeSpriteSheet.png-4229414c243299b4aa8154419d1a75e3.ctex"
+path="res://.godot/imported/AlienSlimeSpriteSheet.png-05ee743197bd79b09871dc9a60b5e2ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/AlienSlimeSpriteSheet.png"
-dest_files=["res://.godot/imported/AlienSlimeSpriteSheet.png-4229414c243299b4aa8154419d1a75e3.ctex"]
+source_file="res://ASSETS/AlienSlimeSpriteSheet.png"
+dest_files=["res://.godot/imported/AlienSlimeSpriteSheet.png-05ee743197bd79b09871dc9a60b5e2ca.ctex"]
 
 [params]
 
