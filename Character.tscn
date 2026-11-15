@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://bvp6h8bvcell5" path="res://character.gd" id="1_7ig0a"]
 [ext_resource type="Texture2D" uid="uid://ckhphnuykxi3t" path="res://ASSETS/idle_sheet.png" id="2_atbvg"]
-[ext_resource type="Texture2D" uid="uid://2qtmwbxc25wb" path="res://ASSETS/walk_sheet.png" id="3_cxxw8"]
 [ext_resource type="Texture2D" uid="uid://dpqhvcr2ccp4w" path="res://ASSETS/jump_sheet.png" id="4_e24yd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5gddd"]
@@ -61,36 +60,39 @@ region = Rect2(456, 0, 76, 76)
 atlas = ExtResource("4_e24yd")
 region = Rect2(532, 0, 76, 76)
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_lcuhw"]
+load_path = "res://.godot/imported/walk_sheet.png-16085f2ec61f4c9eec988051d3131b17.ctex"
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_e3mem"]
-atlas = ExtResource("3_cxxw8")
+atlas = SubResource("CompressedTexture2D_lcuhw")
 region = Rect2(0, 0, 76, 76)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rcm65"]
-atlas = ExtResource("3_cxxw8")
+atlas = SubResource("CompressedTexture2D_lcuhw")
 region = Rect2(76, 0, 76, 76)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mj5a2"]
-atlas = ExtResource("3_cxxw8")
+atlas = SubResource("CompressedTexture2D_lcuhw")
 region = Rect2(152, 0, 76, 76)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iu5xb"]
-atlas = ExtResource("3_cxxw8")
+atlas = SubResource("CompressedTexture2D_lcuhw")
 region = Rect2(228, 0, 76, 76)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jfs23"]
-atlas = ExtResource("3_cxxw8")
+atlas = SubResource("CompressedTexture2D_lcuhw")
 region = Rect2(304, 0, 76, 76)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gh722"]
-atlas = ExtResource("3_cxxw8")
+atlas = SubResource("CompressedTexture2D_lcuhw")
 region = Rect2(380, 0, 76, 76)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k301r"]
-atlas = ExtResource("3_cxxw8")
+atlas = SubResource("CompressedTexture2D_lcuhw")
 region = Rect2(456, 0, 76, 76)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8wbt7"]
-atlas = ExtResource("3_cxxw8")
+atlas = SubResource("CompressedTexture2D_lcuhw")
 region = Rect2(532, 0, 76, 76)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_j630g"]
@@ -178,7 +180,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_07igm"]
-size = Vector2(65.5, 69.5)
+size = Vector2(56, 64)
 
 [node name="Node2D" type="CharacterBody2D" unique_id=845573004 groups=["character"]]
 script = ExtResource("1_7ig0a")
@@ -187,11 +189,10 @@ script = ExtResource("1_7ig0a")
 texture_filter = 1
 position = Vector2(-505, -39)
 sprite_frames = SubResource("SpriteFrames_j630g")
-animation = &"jump"
 autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1109634097]
-position = Vector2(-502.75, -29.25)
+position = Vector2(-505, -32)
 shape = SubResource("RectangleShape2D_07igm")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1972354191]

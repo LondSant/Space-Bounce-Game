@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjau4phq5b260"
-path="res://.godot/imported/starry-sky-red-5120x2880-21272.jpg-d66fd91f79b447559d03fe84088e0155.ctex"
+uid="uid://2qlyd1mip03y"
+path="res://.godot/imported/sci-fy2.png-2e4402f4e592483b5d622cfc2eb92a62.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSETS/starry-sky-red-5120x2880-21272.jpg"
-dest_files=["res://.godot/imported/starry-sky-red-5120x2880-21272.jpg-d66fd91f79b447559d03fe84088e0155.ctex"]
+source_file="res://ASSETS/sci-fy2.png"
+dest_files=["res://.godot/imported/sci-fy2.png-2e4402f4e592483b5d622cfc2eb92a62.ctex"]
 
 [params]
 
